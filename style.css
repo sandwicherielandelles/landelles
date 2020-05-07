@@ -392,7 +392,7 @@ p {
     color: #b12018;
     text-align: center;
     margin: 1rem 20%;
-    line-height: 1rem;
+    line-height: 1.3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
 
@@ -503,4 +503,38 @@ body {
 iframe {
     height: 28.125rem;
     width: 50vw;
+}
+
+span {
+    display: block;
+}
+
+.header--title {
+    margin-top: 4rem;
+}
+
+.covid-19 {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    padding: 3rem 0rem;
+    background-color: #b12018;
+}
+
+.covid-19>* {
+    color: white;
+}
+
+
+
+.news {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
